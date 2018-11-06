@@ -27,6 +27,7 @@ github_username:  kuidaoreninja
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-clean-blog 
+remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
 
