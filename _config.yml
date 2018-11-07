@@ -15,10 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: KUIDAOREcorp
 email: website@kuidaore.ninja
+author: KUIDAOREcorp
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Data Science, Code, DevOps, Agile
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kuidaore.ninja" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pengler
@@ -30,6 +29,11 @@ theme: jekyll-theme-clean-blog
 remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+#Pagination settings
+paginate: 10
+paginate_path:     "/posts/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
